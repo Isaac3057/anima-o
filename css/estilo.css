@@ -680,8 +680,8 @@
    position: absolute;
    top: 30vw;
    left: 110vh;
-   transform: translateX(-50%);
-   font-size: 2rem;
+   transform: translateX(-45%);
+   font-size: 7vh;
    color: black;
    opacity: 0;
    /* invisível inicialmente */
@@ -704,13 +704,13 @@
 
  .top-message {
    position: fixed;
-   top: 5px;
-   right: -900px;
+   top: 1vh;
+   right: -70vw;
    /* começa fora da tela à direita */
-   padding: 6px 12px;
+   padding: 1vh 2vw;
    background-color: #435d70;
    color: black;
-   font-size: 0.8rem;
+   font-size: 3vh;
    white-space: nowrap;
    opacity: 0;
    animation: slideLeft 15s linear forwards;
@@ -727,7 +727,7 @@
  /* animação para mover da direita para a esquerda e sumir */
  @keyframes slideLeft {
    0% {
-     right: -900px;
+     right: -70vw;
      opacity: 0;
    }
 
