@@ -389,24 +389,17 @@
  }
 
 
- @keyframes mars-final {
-
-   0%,
-   36% {
-     transform: translate(-50%, -50%) scale(1);
-     /* Espera 1s no centro */
-   }
-
-   40% {
-     transform: translate(-50%, -50%) scale(0.4);
-
-   }
-
-   50%,
-   100% {
-     transform: translate(-50%, calc(-50% - 119px)) scale(0.4);
-   }
- }
+@keyframes mars-final {
+  0%, 36% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  40% {
+    transform: translate(-50%, -50%) scale(0.4);
+  }
+  50%, 100% {
+    transform: translate(-50%, calc(-50% - 32vh)) scale(0.4);
+  }
+}
 
  /* Aplicar fade-out em todos os elementos exceto o planeta */
  .space .mars .tentacle,
@@ -432,13 +425,13 @@
 
  .block1 {
    position: absolute;
-   top: 100px;
+   top: 13vw;
    /* 120px do planeta + 20px de espaço */
    left: 50%;
    transform: translateX(-50%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -460,13 +453,13 @@
 
  .block2 {
    position: absolute;
-   top: 150px;
+   top: 19.8vw;
    /* 120px do planeta + 20px de espaço */
    left: 50%;
    transform: translateX(-50%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -488,13 +481,13 @@
 
  .block3 {
    position: absolute;
-   top: 200px;
+   top: 26.6vw;
    /* 120px do planeta + 20px de espaço */
    left: 50%;
    transform: translateX(-50%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -516,13 +509,13 @@
 
  .block4 {
    position: absolute;
-   top: 47px;
+   top: 6.1vw;
    /* 120px do planeta + 20px de espaço */
    left: 55%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -544,13 +537,13 @@
 
  .block5 {
    position: absolute;
-   top: 100px;
+   top: 13vw;
    /* 120px do planeta + 20px de espaço */
    left: 55%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -572,13 +565,13 @@
 
  .block6 {
    position: absolute;
-   top: 150px;
+   top: 19.8vw;
    /* 120px do planeta + 20px de espaço */
    left: 55%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -600,13 +593,13 @@
 
  .block7 {
    position: absolute;
-   top: 200px;
+   top: 26.5vw;
    /* 120px do planeta + 20px de espaço */
    left: 55%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -628,13 +621,13 @@
 
  .block8 {
    position: absolute;
-   top: 150px;
+   top: 6.1vw;
    /* 120px do planeta + 20px de espaço */
    left: 62%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -657,13 +650,13 @@
 
  .block9 {
    position: absolute;
-   top: 46px;
+   top: 19.8vw;
    /* 120px do planeta + 20px de espaço */
    left: 62%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 46px;
-   height: 46px;
+   width: 12vh;
+   height: 6vw;
    background-color: green;
    opacity: 0;
    border-radius: 1vh;
@@ -685,8 +678,8 @@
 
  .P1 {
    position: absolute;
-   top: 55%;
-   left: 55%;
+   top: 30vw;
+   left: 110vh;
    transform: translateX(-50%);
    font-size: 2rem;
    color: black;
