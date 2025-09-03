@@ -430,7 +430,7 @@
    left: 50%;
    transform: translateX(-50%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -458,7 +458,7 @@
    left: 50%;
    transform: translateX(-50%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -486,7 +486,7 @@
    left: 50%;
    transform: translateX(-50%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -514,7 +514,7 @@
    left: 55%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -542,7 +542,7 @@
    left: 55%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -570,7 +570,7 @@
    left: 55%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -598,7 +598,7 @@
    left: 55%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -626,7 +626,7 @@
    left: 62%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -655,7 +655,7 @@
    left: 62%;
    transform: translateX(-20%);
    /* centraliza horizontalmente em relação ao planeta */
-   width: 12vh;
+   width: 6vw;
    height: 6vw;
    background-color: green;
    opacity: 0;
@@ -679,7 +679,7 @@
  .P1 {
    position: absolute;
    top: 30vw;
-   left: 110vh;
+   left: 55vw;
    transform: translateX(-45%);
    font-size: 7vh;
    color: black;
